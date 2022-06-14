@@ -7,7 +7,7 @@
 This project is to study the vaccination rate. Various types of people are taken into the analysis. Some visualizations and tables are included to aid in understanding the progress.
 
 ## Business Problem
-A survey was conducted to record if people received the H1N1 vaccine. The survey  consists of more than 30 multiple-choice questions including vaccination status, demographics, knowledge level of vaccine, etc. The government wants to reach out to unvaccinated people as much as possible to increase the vaccination rate. It was requested to research what categories of people have a higher rate of unvaccinated people.
+A survey was conducted to record if people received the H1N1 vaccine. The survey  consists of more than 30 multiple-choice questions including vaccination status, demographics, knowledge level of vaccine, etc. The government wants to reach out to unvaccinated people as much as possible to increase the vaccination rate. It was requested to research what categories of people have a lower rate of vaccinated people.
 
 ## Data Understanding
 The data for this analysis comes from the National 2009 H1N1 Flu Survey (NHFS). The dataset has more than 30 columns where each column represents a question in the survey. Several columns are removed as they are not relevant to H1N1 vaccine information.
@@ -97,9 +97,9 @@ The unvaccination rate means a rate of people who did not get vaccinated.
 ![no_health_ins](./images/no_health_ins.png)
 
 # Conclusions
-- **People without a response to a doctor's recommendation question have the highest unvaccination rate.** 
+- **People without a response to a doctor's recommendation question have the lowest vaccination rate.** 
 - **People without health insurance tend not to get vaccinated.**
-- Using the above two statements, we can see that people who do not pay much attention to their medical status tend not to get vaccinated. It seems vaccinated people generally pay attention to their general health.
+- Using the above two statements, we can see that people who do not pay much attention to their medical status tend not to get vaccinated. 
 - **People who do not strongly believe in the H1N1 vaccine tend not to get vaccinated.** It is important to find a way to let people know that the H1N1 vaccine is safe and effective.
 - It seems demographics (gender, race, region, etc) have a lower impact on the analysis.
 
@@ -108,7 +108,7 @@ Further analysis could help the government gain more insight into understanding 
 
 - **Pruning some features.** The survey already has more than 30 questions. We can try to narrow it down to around 10 or more specific features the government is interested in.
 - **More research on missing values.** Most of the missing values are marked as "unknown" or "N/A". Per request, the missing values can be assigned with one of the available options in each question.
-- **Investigation on the correlation between questions** It seems people with more medical activities have a higher vaccination rate. Examples of medical activities are a regular visit to the doctor's office and understanding of health insurance. Understanding of correlation might help go further in the analysis.
+- **Investigation on the correlation between questions** It seems people with more medical activities have a higher vaccination rate. For example, one who visits a doctor regularly and knows health insurance status tends to get vaccinated. Understanding of correlation might help go further in the analysis.
 
 # Repository Structure
 
