@@ -45,3 +45,24 @@ def result(data, title):
     plt.show()
     
     pass
+
+def heat_map(y_train, X_train):
+
+    heatmap_data = pd.concat([y_train, X_train], axis=1)
+    corr = heatmap_data.corr()
+
+    fig, ax = plt.subplots(figsize=(10, 16))
+    sns.heatmap(data=corr,
+                mask=np.triu(np.ones_like(corr, dtype=bool)),
+                ax=ax,
+                annot=True,
+                cbar_kws={"label": "Correlation", 
+                          "orientation": "horizontal", 
+                          "pad": .2, 
+                          "extend": "both"}
+               )
+    ax.set_title("Heatmap of Correlation")
+    
+    plt.show() 
+    
+    pass
