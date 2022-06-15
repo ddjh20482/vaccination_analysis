@@ -84,23 +84,32 @@ The unvaccination rate means a rate of people who did not get vaccinated.
 
 ![no_res_doc_rec](./images/no_res_doc_rec.png)
 
-- **Anyone without a doctor's recommendation still has a higher unvaccination rate than other categories.**
+- **Unvacinnated people without doctor's recommendation tend to be somewhat concerned.**
 
-![no_doc_rec](./images/no_doc_rec.png)
+![concern_doc_recom](./images/concern_doc_recom.png)
 
 - **Anyone who did not answer a scale 5 (very effective) on the opinion of the H1N1 vaccine has a high unvaccination rate.**
 
 ![big_belief_vac](./images/big_belief_vac.png)
 
+- **Unvacinnated people without a big belief tend to be somewhat concerned.**
+
+![concern_opinion](./images/concern_opinion.png)
+
 - **Anyone without health insurance has a high unvaccination rate.** This category does not include people who do not know if they have health insurance or not.
 
 ![no_health_ins](./images/no_health_ins.png)
+
+- **Most of unvaccinated people without health insurance did not receive doctor's recommendation.**
+
+![doc_recom_insurance](./images/doc_recom_insurance.png)
 
 # Conclusions
 - **People without a response to a doctor's recommendation question have the lowest vaccination rate.** 
 - **People without health insurance tend not to get vaccinated.**
 - Using the above two statements, we can see that people who do not pay much attention to their medical status tend not to get vaccinated. 
 - **People who do not strongly believe in the H1N1 vaccine tend not to get vaccinated.** It is important to find a way to let people know that the H1N1 vaccine is safe and effective.
+- Based on h1n1 concern graphs, people are generally concerned about getting the flu regardless of response to the questions.
 - It seems demographics (gender, race, region, etc) have a lower impact on the analysis.
 
 ### Next Steps
@@ -108,7 +117,7 @@ Further analysis could help the government gain more insight into understanding 
 
 - **Pruning some features.** The survey already has more than 30 questions. We can try to narrow it down to around 10 or more specific features the government is interested in.
 - **More research on missing values.** Most of the missing values are marked as "unknown" or "N/A". Per request, the missing values can be assigned with one of the available options in each question.
-- **Investigation on the correlation between questions** It seems people with more medical activities have a higher vaccination rate. For example, one who visits a doctor regularly and knows health insurance status tends to get vaccinated. Understanding of correlation might help go further in the analysis.
+
 
 # Repository Structure
 
