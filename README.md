@@ -109,7 +109,7 @@ The unvaccination rate means a rate of people who did not get vaccinated.
 - **People without health insurance tend not to get vaccinated.**
 - Using the above two statements, we can see that people who do not pay much attention to their medical status tend not to get vaccinated. 
 - **People who do not strongly believe in the H1N1 vaccine tend not to get vaccinated.** It is important to find a way to let people know that the H1N1 vaccine is safe and effective.
-- Based on h1n1 concern graphs, people are generally concerned about getting the flu regardless of response to the questions.
+- Based on two graphs on vaccination concern, people are generally concerned about getting the vaccination regardless of response to the questions.
 - It seems demographics (gender, race, region, etc) have a lower impact on the analysis.
 
 ### Next Steps
