@@ -116,6 +116,7 @@ The unvaccination rate means a rate of people who did not get vaccinated.
 Further analysis could help the government gain more insight into understanding people without vaccination.
 
 - **Pruning some features.** The survey already has more than 30 questions. We can try to narrow it down to around 10 or more specific features the government is interested in.
+- **Select demographics for the analysis.** The results do not have much information on demographics. Run the analysis again using only demographics.
 - **More research on missing values.** Most of the missing values are marked as "unknown" or "N/A". Per request, the missing values can be assigned with one of the available options in each question.
 
 
